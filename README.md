@@ -51,7 +51,7 @@ $ chmod +x manage.py
 5: To run the Django server at localhost:
 
 ```
-$ ./manage.py runserver
+$ ./manage.py runserver  # Or python manage.py runserver if you've skipped step 4
 ```
 
 6: Sync database based on latest DB's migration files (courtesy of Django's out-of-the-box ORM):
